@@ -4,7 +4,8 @@
 <div class="container">
     <h3 class="text-center">Welcome to  Your Panel</h3>
     <h3 class="text-center">Post</h3>
-    <a href="{{ route('policy.index') }}">Policy</a>
+    <a href="{{ route('policy.index') }}">Policy</a><br>
+    <a href="{{ route('users.profile') }}">Profile</a>
 {{--    <a href="{{ route('policy.index') }}" class="btn ">Post</a>--}}
     @can('isAdmin')
          <form action="" method="post">
